@@ -6,12 +6,12 @@
 
 //         char[] ch = str.toCharArray();
 //         for(int i=ch.length-1 ;i>=0; i--){
-//             // System.out.println(ch[i]);
+//             System.out.println(ch[i]);
 //            rev = rev + ch[i];
             
 //         }
-//         // String reverseArr = new String(rev);
-//         // System.out.println(reverseArr);
+//         String reverseArr = new String(rev);
+//         System.out.println(reverseArr);
 
 //         if(Original.equals(rev)){
 //             System.out.println("Palindrome");
@@ -32,7 +32,7 @@
 
 
 
-// //    <<<-------- SECOND METHOD TO REVERSE AN STRING .
+//    <<<-------- SECOND METHOD TO REVERSE AN STRING .
 // import java.util.*;
 // public class ReverseString{
 //     public static void main(String[] args){
@@ -40,7 +40,7 @@
 //         System.out.println("Enter the String : ");
 
 //         String str = sc.nextLine();
-//         // String str = "Nilesh";
+//         String str = "Nilesh";
         
 //         String Original = str.toLowerCase();
 //         String revString ="";
@@ -66,18 +66,18 @@
 
 
 // <<<<<<--- 3rs method to reverse String-->
-import java.util.*;
-public class ReverseString {
+// import java.util.*;
+// public class ReverseString {
 
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        String str =sc.nextLine();
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         String str =sc.nextLine();
 
-        // StringBuilder sb = new StringBuilder(str);
-        StringBuffer sb = new StringBuffer(str);
-        sb.reverse();
-        System.out.println(sb);
+//         StringBuilder sb = new StringBuilder(str);
+//         StringBuffer sb = new StringBuffer(str);
+//         sb.reverse();
+//         System.out.println(sb);
 
 
-    }
-}
+//     }
+// }
